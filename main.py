@@ -236,7 +236,7 @@ def main():
                                                  message=mes_text)
                         elif text == "Авторынок":
                             mes_text = "АВТОРЫНОК👥\n\n"
-                            cars = user.get_autosale(user.rows())
+                            cars = user.get_autosalon(user.rows())
                             for i, value in enumerate(cars):
                                 if value[2] == 1 or value[2] == 2:
                                     data = (vk.users.get(user_ids=(value[0])))[0]
@@ -256,7 +256,7 @@ def main():
                         elif text[0:15] == 'https://vk.com/':
                             s = vk_session.method('utils.resolveScreenName', {'screen_name': text[15:]})
                             id = s["object_id"]
-                            kars = user.get_autosale(user.rows())
+                            kars = user.get_autosalon(user.rows())
                             for i, value in enumerate(kars):
                                 if value[2] == 1 or value[2] == 2:
                                     data = (vk.users.get(user_ids=(value[0])))[0]

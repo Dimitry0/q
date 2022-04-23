@@ -118,7 +118,7 @@ class UsersInfo:
         values = db.fetchall()
         return values
 
-    def get_autosale(count):
+    def get_autosalon(count):
         db.execute(f"SELECT vk_id, cars, autosale, cost_of_car FROM 'userss' ORDER BY clicks DESC LIMIT {count}")
         con.commit()
         values = db.fetchall()
