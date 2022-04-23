@@ -70,8 +70,9 @@ def main():
                             else:
                                 mes_text = f"Приветствуем вас в казино\n"
                                 mes_text += f"НАЧАЛЬНАЯ СТАВКА 5 КОПЕЕК\n\n"
-                                mes_text += f"Шанс выпадения черного = 50%\n"
-                                mes_text += f"шанс выпадения черного = 50%\n"
+                                mes_text += f"Шанс выпадения черного = 47%\n"
+                                mes_text += f"шанс выпадения красного = 47%\n"
+                                mes_text += f"шанс выпадения зеленого = 5%\n"
                                 vk.messages.send(user_id=user_id,
                                                  random_id=get_random_id(),
                                                  keyboard=open('keyboard_casino.json', 'r', encoding='UTF-8').read(),
