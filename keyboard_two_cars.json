@@ -1,0 +1,27 @@
+{
+  "one_time": false,
+  "buttons": [
+    [{
+      "action": {
+        "type": "text",
+        "label": "Ваз 2107"
+      },
+      "color": "positive"
+    },
+
+      {
+      "action": {
+        "type": "text",
+        "label": "Lada Granta"
+      },
+      "color": "positive"
+    }],
+    [{
+      "action": {
+        "type": "text",
+        "label": "Back"
+      },
+      "color": "secondary"
+    }]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "one_time": false,
+  "buttons": [
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Топ игроков"
+        },
+        "color": "positive"
+      }
+    ],
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Авторынок"
+        },
+        "color": "primary"
+      }
+    ],
+       [
+      {
+        "action": {
+          "type": "text",
+          "label": "назад"
+        },
+        "color": "primary"
+      }
+    ]
+  ]
+}

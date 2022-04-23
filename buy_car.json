@@ -1,0 +1,21 @@
+{
+ "one_time": false,
+  "inline": true,
+  "buttons": [
+    [{
+      "action": {
+        "type": "text",
+        "label": "да."
+      },
+      "color": "positive"
+    },
+
+      {
+      "action": {
+        "type": "text",
+        "label": "нет."
+      },
+      "color": "negative"
+    }]
+  ]
+}

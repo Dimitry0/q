@@ -1,0 +1,29 @@
+{
+  "one_time": false,
+  "buttons": [
+    [{
+      "action": {
+        "type": "text",
+        "label": "Клик \uD83D\uDCA5"
+      },
+      "color": "positive"
+    },
+
+      {
+      "action": {
+        "type": "text",
+        "label": "Казино"
+      },
+      "color": "primary"
+    }],
+
+    [
+      {
+      "action": {
+        "type": "text",
+        "label": "Назад"
+      },
+      "color": "default"
+    }]
+  ]
+}

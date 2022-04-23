@@ -1,0 +1,44 @@
+{
+  "one_time": false,
+  "buttons": [
+    [{
+      "action": {
+        "type": "text",
+        "label": "Я"
+      },
+      "color": "primary"
+    }],
+	[
+      {
+      "action": {
+        "type": "text",
+        "label": "Улучшить мощность клика"
+      },
+      "color": "secondary"
+    }],
+    	[
+      {
+      "action": {
+        "type": "text",
+        "label": "Купить машину"
+      },
+      "color": "positive"
+    }],
+      	[
+      {
+      "action": {
+        "type": "text",
+        "label": "Продать машину"
+      },
+      "color": "negative"
+    }],
+    [
+      {
+      "action": {
+        "type": "text",
+        "label": "Назад."
+      },
+      "color": "secondary"
+    }]
+  ]
+}
