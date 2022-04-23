@@ -193,7 +193,7 @@ def main():
                                 vk.messages.send(user_id=user_id,
                                                  random_id=get_random_id(),
                                                  message=mes_text)
-                        elif text.lower() == "baby back, hey!)" or text == "Baby back, hey!)":
+                        elif text.lower() == "back" or text == "back":
                             user.update_stavka(user_id, 5)
                             vk.messages.send(user_id=user_id,
                                              random_id=get_random_id(),
